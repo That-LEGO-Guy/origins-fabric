@@ -1,0 +1,43 @@
+
+> Configure project :
+Fabric Loom: 1.7.4
+
+> Task :clean
+
+> Task :compileJava
+warning: unknown enum constant Env.CLIENT
+  reason: class file for com.demonwav.mcdev.annotations.Env not found
+warning: unknown enum constant Env.CLIENT
+  reason: class file for com.demonwav.mcdev.annotations.Env not found
+warning: unknown enum constant Env.CLIENT
+  reason: class file for com.demonwav.mcdev.annotations.Env not found
+C:\Users\Ryan Ryzen\Documents\Cool code\origins-fabric\src\main\java\io\github\apace100\origins\origin\Origin.java:38: warning: [removal] UPGRADES in OriginsDataTypes has been deprecated and marked for removal
+            .add("upgrades", OriginsDataTypes.UPGRADES, new ObjectArrayList<>())
+                                             ^
+C:\Users\Ryan Ryzen\Documents\Cool code\origins-fabric\src\main\java\io\github\apace100\origins\mixin\OriginUpgradeMixin.java:37: warning: [removal] getUpgrade(AdvancementEntry) in Origin has been deprecated and marked for removal
+        Origin.get(owner).forEach((originLayer, origin) -> origin.getUpgrade(advancement).ifPresent(originUpgrade -> {
+                                                                 ^
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+5 warnings
+
+> Task :processResources
+> Task :classes
+> Task :jar
+> Task :processIncludeJars
+> Task :sourcesJar
+> Task :compileTestJava NO-SOURCE
+> Task :processTestResources NO-SOURCE
+> Task :testClasses UP-TO-DATE
+> Task :test NO-SOURCE
+> Task :validateAccessWidener NO-SOURCE
+> Task :check UP-TO-DATE
+> Task :remapJar
+> Task :remapSourcesJar
+> Task :assemble
+> Task :build
+
+BUILD SUCCESSFUL in 11s
+8 actionable tasks: 8 executed
